@@ -1,0 +1,171 @@
+#header{
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  color: cornsilk;
+  display: inline-block;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom:0px ;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+}
+
+
+
+.item{
+  float:right;
+  width: 150px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  margin: 5px 5px;
+  position: relative;
+  display: inline-block;
+}
+
+
+body > div> div> a:hover{
+  color: darkkhaki;
+
+  
+}
+.aitems{
+  color: cornsilk;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  
+  
+
+}
+#footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color:black;
+  text-align: center;
+  background-color:white ; 
+  z-index: 1;
+  
+}
+body{
+margin: 0;
+  /* background-color: greenyellow; */
+}
+#chuahinhanh{
+  width: 30%;
+  display: inline-block;
+  margin-left:50px;
+  margin-top: 50px ;
+}
+#hinhanh{
+    margin: auto;
+    margin-top: 50px ;
+    margin-bottom: 100px;
+    width: 300px;
+    height: 300px;
+    background:url('https://media.sciencephoto.com/image/p5100072/800wm');
+    background-size: cover;
+    background-position: center;
+    border-radius:100%;
+    border: black;
+    display: inline-block;
+    overflow: hidden;
+}
+#boxthongtin{
+  width: 65%;
+  height: auto;
+  display: inline-block;
+  margin-top: 50px ;
+}
+#thongtin
+{   width: 100%;
+    height: auto;
+    color: black;
+    padding: auto;
+    
+    padding-left: 20px;
+    display: inline-block;
+    font-size: 100%;
+    float: inline-end;
+    text-decoration: none;
+}
+hr{
+    border: black;
+}
+.flexbox{
+  width: 24.7%;
+  height: 280px;
+  display: inline-block;
+  position: relative;
+}
+#flex1{
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('https://tul.imgix.net/content/article/banana.jpg?auto=format,compress&w=520&h=390&fit=crop');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#flex2{
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('https://www.economist.com/sites/default/files/20180929_BLP506.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#flex3{
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('https://images.food52.com/rTVuy3dBNLDUmIue_DvJLoiG8TA=/2016x1344/filters:format(webp)/939a183c-d9e5-4e7f-84d6-8ce9fc06c06f--2019-0723_momofuku-soy-sauce-eggs_3x2_rocky-luten_031.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#flex4{
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('https://cdn.apartmenttherapy.info/image/fetch/f_auto,q_auto:eco,c_fill,g_auto,w_800,h_418/https%3A%2F%2Fstorage.googleapis.com%2Fgen-atmedia%2F3%2F2014%2F02%2F6a1bea7b78be03eaeb11795b75e9d6682f63cb04.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#flex1:hover{
+
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('https://tul.imgix.net/content/article/banana.jpg?auto=format,compress&w=520&h=390&fit=crop');
+  background-position: center;
+}
+#flex2:hover{
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('https://www.economist.com/sites/default/files/20180929_BLP506.jpg');
+  background-position: center;
+}
+#flex3:hover{
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('https://images.food52.com/rTVuy3dBNLDUmIue_DvJLoiG8TA=/2016x1344/filters:format(webp)/939a183c-d9e5-4e7f-84d6-8ce9fc06c06f--2019-0723_momofuku-soy-sauce-eggs_3x2_rocky-luten_031.jpg');
+  background-position: center;
+}
+#flex4:hover{
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('https://cdn.apartmenttherapy.info/image/fetch/f_auto,q_auto:eco,c_fill,g_auto,w_800,h_418/https%3A%2F%2Fstorage.googleapis.com%2Fgen-atmedia%2F3%2F2014%2F02%2F6a1bea7b78be03eaeb11795b75e9d6682f63cb04.jpeg');
+  background-position: center;
+}
+.nametag{
+  display: none;
+  text-align: center;
+  font-size: 250%;
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  top:20%;
+  left:20%;
+  transition: translate(-50%);
+}
+.flexbox:hover .nametag{
+  display: block;
+
+}
+.nametag:hover{
+color:cornsilk;
+}
+  
+
+ 
